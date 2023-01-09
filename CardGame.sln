@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Server", "CardGame.Server\CardGame.Server.csproj", "{6EB9BA1D-5775-4A5D-A995-96257022F2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Contracts", "CardGame.Contracts\CardGame.Contracts.csproj", "{77B3AAEB-8941-4762-BF66-E083C735D2E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB9BA1D-5775-4A5D-A995-96257022F2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB9BA1D-5775-4A5D-A995-96257022F2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB9BA1D-5775-4A5D-A995-96257022F2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB9BA1D-5775-4A5D-A995-96257022F2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B3AAEB-8941-4762-BF66-E083C735D2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B3AAEB-8941-4762-BF66-E083C735D2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B3AAEB-8941-4762-BF66-E083C735D2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B3AAEB-8941-4762-BF66-E083C735D2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
