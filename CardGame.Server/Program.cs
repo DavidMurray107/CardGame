@@ -1,9 +1,9 @@
-
+using CardGame.Server.Hubs;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+builder.Services.AddSignalR();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,5 +22,9 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+//Map Hubs
+app.MapHub<ChatHub>("/chatHub");
+app.MapHub <CrazyEightsHub>("/crazyEightsHub");
+
 
 app.Run();

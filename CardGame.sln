@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Contracts", "CardG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Models", "CardGame.Models\CardGame.Models.csproj", "{0AEE75B2-47EC-43AB-8C24-224CE08A4484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.ConsoleTest", "CardGame.ConsoleTest\CardGame.ConsoleTest.csproj", "{D42F110C-5DA9-45BA-A559-81D73293C474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0AEE75B2-47EC-43AB-8C24-224CE08A4484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AEE75B2-47EC-43AB-8C24-224CE08A4484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AEE75B2-47EC-43AB-8C24-224CE08A4484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42F110C-5DA9-45BA-A559-81D73293C474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42F110C-5DA9-45BA-A559-81D73293C474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42F110C-5DA9-45BA-A559-81D73293C474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42F110C-5DA9-45BA-A559-81D73293C474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
