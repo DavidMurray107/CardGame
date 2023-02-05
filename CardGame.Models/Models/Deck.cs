@@ -23,12 +23,16 @@ public class Deck
     public void Shuffle()
     {
         Random random = new Random();
-        for (int i = 0; i < 1000; i++)
+        int n = Cards.Count;
+        while (n > 1)
         {
-            int idx1 = random.Next(Cards.Count);
-            int idx2 = random.Next(Cards.Count);
-            if (idx1 == idx2) continue;
-            (Cards[idx1], Cards[idx2]) = (Cards[idx2], Cards[idx1]);
+            n--;
+            int rnd = random.Next(0,51);
+            //this assignment is equivalent to 
+            // Card c = Cards[rnd];
+            // Cards[rnd] = Cards[n];
+            // Cards[n] = c;
+            (Cards[rnd], Cards[n]) = (Cards[n], Cards[rnd]);
         }
     }
     public int CardsRemaining()

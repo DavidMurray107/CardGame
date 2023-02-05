@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+.game-container{
+  margin-left:0;
+  margin-right:0;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+}

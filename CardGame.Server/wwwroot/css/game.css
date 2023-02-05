@@ -1,0 +1,17 @@
+﻿.game-box{
+    display:flex;
+    flex-direction: row;
+}
+.chat-side-bar{
+    width: 20%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.game-area{
+    width: 80%;
+    height:100%;
+    background-color:green;
+    display:flex;
+    
+}

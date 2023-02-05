@@ -24,7 +24,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 //Map Hubs
 app.MapHub<ChatHub>("/chatHub");
-app.MapHub <CrazyEightsHub>("/crazyEightsHub");
+app.MapHub<CrazyEightsHub>("/crazyEightsHub");
 
 
 app.Run();
