@@ -6,40 +6,83 @@
     <projectFile profileName="IIS Express">CardGame.Server/CardGame.Server.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f84d0d6f-74f6-4293-a6bf-85412dba1051" name="Changes" comment="add basic scaffolding to connect to the crazy eights game hub.">
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.ConsoleTest.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.ConsoleTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.ConsoleTest.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.ConsoleTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.ConsoleTest.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.Contracts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.Models.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/bin/Debug/net6.0/CardGame.Models.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/CardGame.ConsoleTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/CardGame.ConsoleTest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/CardGame.ConsoleTest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/CardGame.ConsoleTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/ref/CardGame.ConsoleTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/Debug/net6.0/refint/CardGame.ConsoleTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame.ConsoleTest/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="f84d0d6f-74f6-4293-a6bf-85412dba1051" name="Changes" comment="update git ignore">
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/API/CardController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/Constants/Lookups.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/10_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/10_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/10_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/10_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/2_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/2_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/2_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/2_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/3_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/3_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/3_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/3_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/4_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/4_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/4_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/4_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/5_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/5_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/5_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/5_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/6_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/6_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/6_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/6_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/7_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/7_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/7_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/7_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/8_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/8_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/8_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/8_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/9_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/9_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/9_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/9_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/ace_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/ace_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/ace_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/ace_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/ace_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/black_joker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/jack_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/king_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_clubs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_diamonds2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_hearts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/queen_of_spades2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/img/cards/red_joker.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CardGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Models/Models/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Models/Models/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Models/Models/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Models/Models/Deck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Server/CardGame.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Server/CardGame.Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Server/wwwroot/css/game.css" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/css/game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame.Server/wwwroot/js/crazyEights.js" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.Server/wwwroot/js/crazyEights.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,28 +121,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Markdown&quot;,
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Markdown",
+      "PLAIN_TEXT"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\David\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\David\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\David\\AppData\\Local\\Symbols\\src&quot;
+    "rider.external.source.directories": [
+      "C:\\Users\\David\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\David\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\David\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CardGame.Server">
     <configuration name="CardGame.ConsoleTest" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -118,6 +161,18 @@
       <method v="2">
         <option name="Build" />
       </method>
+    </configuration>
+    <configuration name="All in CardGame-endpoints" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardGame-endpoints.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in CardGame-endpoints_1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardGame-endpoints_1.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="CardGame-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardGame-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CardGame-endpoints_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CardGame-endpoints_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="CardGame.Server" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CardGame.Server/CardGame.Server.csproj" />
@@ -149,6 +204,14 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.CardGame-endpoints | #1" />
+        <item itemvalue="HTTP Request.CardGame-endpoints_1 | #1" />
+        <item itemvalue="HTTP Request.All in CardGame-endpoints_1" />
+        <item itemvalue="HTTP Request.All in CardGame-endpoints" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -163,7 +226,7 @@
       <workItem from="1673842441154" duration="6982000" />
       <workItem from="1673851936976" duration="5523000" />
       <workItem from="1675560587604" duration="6558000" />
-      <workItem from="1675615058510" duration="366000" />
+      <workItem from="1675615058510" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1673227625198</created>
@@ -193,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675615142737</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update git ignore">
+      <created>1675615690375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675615690375</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +288,26 @@
     <MESSAGE value="Add Contracts project &amp; the gitignore." />
     <MESSAGE value="Add Markdown for the rules of Crazy Eights&#10;&#10;Add Basic Standard Deck functions.&#10;&#10;Add Card And Deck Classes" />
     <MESSAGE value="add basic scaffolding to connect to the crazy eights game hub." />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic scaffolding to connect to the crazy eights game hub." />
+    <MESSAGE value="update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CardGame.Server/API/CardController.cs</url>
+          <line>20</line>
+          <properties documentPath="D:\Programming\CardGame\CardGame.Server\API\CardController.cs" initialLine="18" containingFunctionPresentation="method 'Card'">
+            <startOffsets>
+              <option value="500" />
+            </startOffsets>
+            <endOffsets>
+              <option value="573" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -13,5 +13,8 @@
     height:100%;
     background-color:green;
     display:flex;
-    
+}
+.playing-card{
+    height: 175px;
+    width: 125px;
 }

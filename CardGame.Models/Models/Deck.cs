@@ -62,7 +62,8 @@ public class Deck
                 {
                     Rank = Helpers.StandardDeckService.ConvertIntToStandardRankString(i), 
                     Suit = suit, 
-                    Value = Helpers.StandardDeckService.ConvertIntToStandardValue(i)
+                    ScoringValue = Helpers.StandardDeckService.ConvertIntToStandardValue(i),
+                    Value = i
                 });
             }
         }
